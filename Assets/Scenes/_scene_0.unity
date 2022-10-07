@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571328, b: 0.3069218, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -512,10 +512,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 13
 =======
   m_RootOrder: 12
 >>>>>>> 7362db9f912f90a5375e6b5ccd4f501167bbcb7c
+=======
+  m_RootOrder: 11
+>>>>>>> parent of 7362db9 (Laser Beam Inc Dist)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &621595842 stripped
 GameObject:
@@ -616,6 +620,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1219099700
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5851877704997238053, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
+      propertyPath: m_Name
+      value: Camera Spinner (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
 --- !u!1001 &1438491123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -641,7 +702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6662256298676064307, guid: 312ca38b4d3bbce43abc09473b7080bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13
+      value: 14.98
       objectReference: {fileID: 0}
     - target: {fileID: 6662256298676064307, guid: 312ca38b4d3bbce43abc09473b7080bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -727,10 +788,14 @@ PrefabInstance:
     - target: {fileID: 3639647722322157853, guid: 2a6908e672eac269a8db0eaba3ae5581, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 14
 =======
       value: 13
 >>>>>>> 7362db9f912f90a5375e6b5ccd4f501167bbcb7c
+=======
+      value: 12
+>>>>>>> parent of 7362db9 (Laser Beam Inc Dist)
       objectReference: {fileID: 0}
     - target: {fileID: 3639647722322157853, guid: 2a6908e672eac269a8db0eaba3ae5581, type: 3}
       propertyPath: m_LocalPosition.x
@@ -924,7 +989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6662256298676064307, guid: 312ca38b4d3bbce43abc09473b7080bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.5
+      value: 13.5
       objectReference: {fileID: 0}
     - target: {fileID: 6662256298676064307, guid: 312ca38b4d3bbce43abc09473b7080bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1074,7 +1139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 5.33
       objectReference: {fileID: 0}
     - target: {fileID: 5851877704997238052, guid: bc0d73cc8e21baf41a1f18e3f52b420a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1125,10 +1190,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 615776030800081474, guid: ac681cc9feea8b94c9ba2951c71cb3da, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 729189340435049421, guid: ac681cc9feea8b94c9ba2951c71cb3da, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1194,6 +1255,7 @@ PrefabInstance:
       value: Table
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 5198434454453923258, guid: ac681cc9feea8b94c9ba2951c71cb3da, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -1211,6 +1273,8 @@ PrefabInstance:
       value: 0
 >>>>>>> 7362db9f912f90a5375e6b5ccd4f501167bbcb7c
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 7362db9 (Laser Beam Inc Dist)
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac681cc9feea8b94c9ba2951c71cb3da, type: 3}
 --- !u!1001 &7154078224065665338
