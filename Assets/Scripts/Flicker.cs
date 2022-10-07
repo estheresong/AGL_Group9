@@ -6,14 +6,14 @@ public class Flicker : MonoBehaviour
 {
     MeshRenderer renderer;
 
-    BoxCollider collider;
+    CapsuleCollider collider;
 
     // Start is called before the first frame update
     void Start()
     {
         renderer = GetComponent<MeshRenderer>();
 
-        collider = GetComponent<BoxCollider>();
+        collider = GetComponent<CapsuleCollider>();
 
         InvokeRepeating("offAndOn", 2.0f, 2.0f);
     }
