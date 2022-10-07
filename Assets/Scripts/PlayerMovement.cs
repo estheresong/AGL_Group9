@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 	public GameObject player;
 	public Rigidbody rb;
 	public CapsuleCollider collider;
+	public Spawn spawn;
 
 	public float speed = .1f;
 	public float jumpSpeed = 1f;
@@ -74,6 +75,20 @@ public class PlayerMovement : MonoBehaviour
 		else
 		{
 			isGround = false;
+		}
+	}
+	
+	void OnTriggerEnter (Collider collider)
+	{
+		if (collider.gameObject.tag == "Laser")
+		{
+			Debug.Log("Hit Laser");
+			spawn.Respawn();
+		}
+		else if (collider.gameObject.tag == "Camera")
+		{
+			Debug.Log("Hit Camera");
+			spawn.Respawn();
 		}
 	}
 
