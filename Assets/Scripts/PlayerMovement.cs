@@ -54,12 +54,12 @@ public class PlayerMovement : MonoBehaviour
 		rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
 		if (lookLeft)
 		{
-			transform.rotation = Quaternion.Euler(0,180,0);
+			rb.rotation = Quaternion.Euler(0,180,0);
 			lookLeft = false;
 		}
 		else if (lookRight)
 		{
-			transform.rotation = Quaternion.Euler(0,0,0);
+			rb.rotation = Quaternion.Euler(0,0,0);
 			lookRight = false;
 		}
 	}
