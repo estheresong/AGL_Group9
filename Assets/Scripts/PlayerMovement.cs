@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 	public GameObject player;
 	public Rigidbody rb;
-	public CapsuleCollider collider;
+	public BoxCollider collider;
 	public Spawn spawn;
 
 	public float speed = .1f;
@@ -77,6 +77,19 @@ public class PlayerMovement : MonoBehaviour
 			isGround = false;
 		}
 	}
+
+	void OnCollisionStay (Collision collision)
+	{
+		if (collision.gameObject.tag == "Platform")
+		{
+			Debug.Log("isGrounded");
+			isGround = true;
+		}
+		else
+		{
+			isGround = false;
+		}
+	}
 	
 	void OnTriggerEnter (Collider collider)
 	{
@@ -107,12 +120,12 @@ public class PlayerMovement : MonoBehaviour
 	{
 		if (isCrouch)
 		{
-			collider.height = 2;
+			collider.size = new Vector3(1,2,1);
 			isCrouch = false;
 		}
 		else
 		{
-			collider.height = 1;
+			collider.size = new Vector3(1,1,1);
 			isCrouch = true;
 			if (isGround) {
 				rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
