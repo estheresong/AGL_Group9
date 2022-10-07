@@ -461,6 +461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 608535502}
   rb: {fileID: 608535503}
+  collider: {fileID: 608535504}
   speed: 5
   jumpSpeed: 300
 --- !u!1 &1577880827
