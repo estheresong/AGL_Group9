@@ -151,6 +151,14 @@ PrefabInstance:
       propertyPath: spawn
       value: 
       objectReference: {fileID: 402147925}
+    - target: {fileID: 173763354, guid: 674f7bc3f78f11042a505a1802018d1c, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 173763354, guid: 674f7bc3f78f11042a505a1802018d1c, type: 3}
+      propertyPath: jumpSpeed
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 4881008673174783488, guid: 674f7bc3f78f11042a505a1802018d1c, type: 3}
       propertyPath: m_Name
       value: Spy
