@@ -513,10 +513,14 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 13
 =======
   m_RootOrder: 12
 >>>>>>> 7362db9f912f90a5375e6b5ccd4f501167bbcb7c
+=======
+  m_RootOrder: 11
+>>>>>>> parent of 7362db9 (Laser Beam Inc Dist)
 =======
   m_RootOrder: 11
 >>>>>>> parent of 7362db9 (Laser Beam Inc Dist)
@@ -789,10 +793,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 14
 =======
       value: 13
 >>>>>>> 7362db9f912f90a5375e6b5ccd4f501167bbcb7c
+=======
+      value: 12
+>>>>>>> parent of 7362db9 (Laser Beam Inc Dist)
 =======
       value: 12
 >>>>>>> parent of 7362db9 (Laser Beam Inc Dist)
@@ -1256,6 +1264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 5198434454453923258, guid: ac681cc9feea8b94c9ba2951c71cb3da, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -1273,6 +1282,8 @@ PrefabInstance:
       value: 0
 >>>>>>> 7362db9f912f90a5375e6b5ccd4f501167bbcb7c
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of 7362db9 (Laser Beam Inc Dist)
 =======
 >>>>>>> parent of 7362db9 (Laser Beam Inc Dist)
     m_RemovedComponents: []
