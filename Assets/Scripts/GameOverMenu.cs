@@ -8,6 +8,7 @@ public class GameOverMenu : MonoBehaviour
 	public static bool isGameOver = false;
 
 	public GameObject gameOverUI;
+	public GameState game;
 
 	public void GameOver()
 	{
@@ -19,8 +20,9 @@ public class GameOverMenu : MonoBehaviour
 	public void TryAgain()
 	{
 		Debug.Log("Restart");
+		gameOverUI.SetActive(false);
 		Time.timeScale = 1f;
 		isGameOver = false;
-		//SceneManager.LoadScene("Test_Enviroment");
+		game.Restart();
 	}	
 }

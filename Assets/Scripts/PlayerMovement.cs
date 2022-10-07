@@ -103,6 +103,12 @@ public class PlayerMovement : MonoBehaviour
 			Debug.Log("Hit Camera");
 			spawn.Respawn();
 		}
+
+		else if (collider.gameObject.tag == "Winner")
+        {
+			Debug.Log("WINNER!!");
+			WinnerMenu.isWinner = true;
+        }
 	}
 
 	void Jump()
